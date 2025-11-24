@@ -6,13 +6,13 @@ Thanks to bootc and the associated tools, building a personalised desktop experi
 
 This project utilises quay.io/fedora/fedora-bootc as the base image to create a customizable container for building my perosnal desktop.
 
-# Repository structure
+## Repository structure
 I tried to organise the repository for easy reading and maintenance. 
 Files are stored in functional and well-defined directories, making them easy to find and understand their purpose and where they will be placed in the container image.
 
 Each file follows a specific naming convention. For instance a file /usr/lib/credstore/home.create.admin is named as usr__lib__credstore__home.create.admin
 
-## Folders:
+### Folders:
 
 - .github: Contains an example of GitHub action to build the container and publish the image
 - scripts: Contains scripts to be ran from the Containerfile during building
